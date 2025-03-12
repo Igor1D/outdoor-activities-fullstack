@@ -52,4 +52,5 @@ export class User {
   updatedAt: Date
 
   // PreferableActivityTypeID
+  //git test
 }
