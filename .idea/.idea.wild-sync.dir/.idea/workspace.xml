@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/activities/activities.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/activities/activities.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/activities/activities.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/activities/activities.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/activities/activities.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/activities/dto/create-activity.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/activities/dto/update-activity.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/activities/entities/activity.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/app.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/app.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/app.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/auth/auth.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/auth/auth.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/auth/auth.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/auth/dto/create-auth.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/auth/dto/update-auth.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/auth/entities/auth.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/user/dto/create-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/user/dto/update-user.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/user/entities/user.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/user/user.controller.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/user/user.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/user/user.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/user/user.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/user/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/test/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/test/jest-e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Server" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Igor1D&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Igor1D/outdoor-activities.git&quot;,
+    &quot;accountId&quot;: &quot;6586b0da-f21e-4fb7-b072-5cf8d42ef462&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Client/package-lock.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Client/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Server/package-lock.json" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/Client/package.json" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2sXv6MFACmtkToQabMcVY439e6U" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/Client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/igorditro/Library/Application Support/Symbols/src&quot;
+    ]
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="" />
+      <created>1738614557193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738614557193</updated>
+      <workItem from="1738614558822" duration="109000" />
+      <workItem from="1738614686871" duration="26000" />
+      <workItem from="1738614725024" duration="11291000" />
+      <workItem from="1738695567342" duration="3441000" />
+      <workItem from="1738790241750" duration="2155000" />
+      <workItem from="1738863647983" duration="3610000" />
+      <workItem from="1738867272580" duration="5836000" />
+      <workItem from="1739021037101" duration="2600000" />
+      <workItem from="1739024137657" duration="19953000" />
+      <workItem from="1739185246313" duration="330000" />
+      <workItem from="1739216286554" duration="26000" />
+      <workItem from="1739216331713" duration="52000" />
+      <workItem from="1739216398861" duration="6982000" />
+      <workItem from="1739458346736" duration="313000" />
+      <workItem from="1739469731818" duration="4042000" />
+      <workItem from="1739562371013" duration="1770000" />
+      <workItem from="1739823939037" duration="584000" />
+      <workItem from="1739824539618" duration="2859000" />
+      <workItem from="1739904508431" duration="4416000" />
+      <workItem from="1740000130422" duration="2094000" />
+      <workItem from="1740002233286" duration="1807000" />
+      <workItem from="1740168523620" duration="6737000" />
+      <workItem from="1740428419718" duration="9017000" />
+      <workItem from="1741123366806" duration="26000" />
+      <workItem from="1741210398597" duration="1733000" />
+      <workItem from="1741289450458" duration="10216000" />
+    </task>
+    <task id="LOCAL-00001" summary="Login Form + project files">
+      <option name="closed" value="true" />
+      <created>1739217097927</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739217097927</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Finished the ForgotPassword.tsx styling">
+      <option name="closed" value="true" />
+      <created>1739471166082</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739471166082</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Login Form + project files" />
+    <MESSAGE value="Finished the ForgotPassword.tsx styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the ForgotPassword.tsx styling" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
