@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/eslint.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/nest-cli.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activities/activities.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activities/activities.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activities/activities.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activities/activities.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activities/activities.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activities/dto/create-activity.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activities/dto/update-activity.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activities/entities/activity.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/app.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/app.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/app.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/auth/auth.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/auth/auth.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/auth/auth.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/auth/auth.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/auth/auth.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/auth/dto/create-auth.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/auth/dto/update-auth.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/auth/entities/auth.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/user/dto/create-user.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/user/dto/update-user.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/user/entities/user.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/user/user.controller.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/user/user.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/user/user.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/user/user.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/user/user.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/test/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/test/jest-e2e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/tsconfig.build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +19,9 @@
     &quot;assignee&quot;: &quot;Igor1D&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="98c0ade6-dcd7-4dfa-9db6-f2389c3ce70f" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Igor1D/outdoor-activities.git&quot;,
@@ -87,31 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/Client/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "<unknown>",
+    "last_opened_file_path": "/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/node_modules/prettier",
+    "settings.editor.selected.configurable": "vcs.Mercurial",
+    "ts.external.directory.path": "/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/Client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
-      &quot;/Users/igorditro/Library/Application Support/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/Users/igorditro/Library/Application Support/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -146,6 +108,7 @@
       <workItem from="1741123366806" duration="26000" />
       <workItem from="1741210398597" duration="1733000" />
       <workItem from="1741289450458" duration="10216000" />
+      <workItem from="1741635816534" duration="14269000" />
     </task>
     <task id="LOCAL-00001" summary="Login Form + project files">
       <option name="closed" value="true" />
@@ -163,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739471166082</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sever Backend - User and Activity Tables">
+      <option name="closed" value="true" />
+      <created>1741813379316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741813379316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,19 +147,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -199,7 +158,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Login Form + project files" />
     <MESSAGE value="Finished the ForgotPassword.tsx styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the ForgotPassword.tsx styling" />
+    <MESSAGE value="Sever Backend - User and Activity Tables" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
