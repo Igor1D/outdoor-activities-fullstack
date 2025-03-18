@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="test" />
+    <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Client/src/app/Screens/SignUpScreen/Components/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/app/Screens/SignUpScreen/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/app/Forms/LoginFormWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/Wrappers/LoginFormWrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/app/Screens/LoginScreen/Components/Forms/FormCheckBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/Forms/SignUpForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/app/Screens/LoginScreen/Components/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/Forms/LoginForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/app/Screens/LoginScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/Screens/LoginScreen/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/user/entities/user.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/user/entities/user.entity.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Server" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -24,8 +39,8 @@
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Igor1D/outdoor-activities.git&quot;,
-    &quot;accountId&quot;: &quot;6586b0da-f21e-4fb7-b072-5cf8d42ef462&quot;
+    &quot;url&quot;: &quot;https://github.com/Igor1D/outdoor-activities-fullstack.git&quot;,
+    &quot;accountId&quot;: &quot;98c0ade6-dcd7-4dfa-9db6-f2389c3ce70f&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -41,7 +56,7 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2sXv6MFACmtkToQabMcVY439e6U" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -49,31 +64,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "<unknown>",
-    "last_opened_file_path": "/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/node_modules/prettier",
-    "settings.editor.selected.configurable": "vcs.Mercurial",
-    "ts.external.directory.path": "/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/Client/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/Client/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/Client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/igorditro/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/igorditro/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -109,6 +124,9 @@
       <workItem from="1741210398597" duration="1733000" />
       <workItem from="1741289450458" duration="10216000" />
       <workItem from="1741635816534" duration="14269000" />
+      <workItem from="1741815266390" duration="11932000" />
+      <workItem from="1742247769866" duration="2312000" />
+      <workItem from="1742322186362" duration="493000" />
     </task>
     <task id="LOCAL-00001" summary="Login Form + project files">
       <option name="closed" value="true" />
@@ -134,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741813379316</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="workspace.xml - Changes">
+      <option name="closed" value="true" />
+      <created>1741815327293</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741815327293</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,12 +181,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Server" />
+    </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Login Form + project files" />
     <MESSAGE value="Finished the ForgotPassword.tsx styling" />
     <MESSAGE value="Sever Backend - User and Activity Tables" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="workspace.xml - Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml - Changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

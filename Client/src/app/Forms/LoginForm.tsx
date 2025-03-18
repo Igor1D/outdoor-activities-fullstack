@@ -1,5 +1,5 @@
 import React from "react";
-import { LoginFormValidation } from "./types";
+
 import * as yup from "yup";
 import {
   Button,
@@ -12,24 +12,24 @@ import {
   Typography,
 } from "@mui/material";
 import { Formik } from "formik";
-import SiteIcon from "./Icons/CustomIcons";
+
 import AppleIcon from "@mui/icons-material/Apple";
 import GoogleIcon from "@mui/icons-material/Google";
+
+import ForgotPassword from "../Screens/LoginScreen/Components/ForgotPassword";
 import {
   LoginFormWrapper,
   LoginIconWrapper,
-} from "../../../Forms/LoginFormWrapper";
-import ForgotPassword from "./ForgotPassword";
+} from "../Wrappers/LoginFormWrapper";
+import SiteIcon from "../Screens/LoginScreen/Components/Icons/CustomIcons";
+import { LoginFormValidation } from "../Screens/LoginScreen/Components/types";
 
 const validationSchema: yup.Schema<LoginFormValidation> = yup.object().shape({
   email: yup
     .string()
     .email("Enter a valid email")
     .required("Email is required"),
-  password: yup
-    .string()
-    .min(8, "Password should be of minimum 8 characters length")
-    .required("Password is required"),
+  password: yup.string().min(8).required("Password is required"),
 });
 
 export function LoginForm() {
@@ -59,7 +59,6 @@ export function LoginForm() {
           required
           fullWidth
           variant="outlined"
-          // fullWidth={true}
         />
         {/*</FormControl>*/}
         {/*<FormControl>*/}

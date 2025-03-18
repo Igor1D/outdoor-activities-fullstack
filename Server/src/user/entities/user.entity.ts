@@ -5,6 +5,13 @@ enum Status {
   Inactive = 'Inactive',
   Blocked = 'Blocked'
 }
+
+enum Gender {
+  Male = 'Male',
+  Female = 'Female',
+  RatherNotSay = 'Rather not say'
+}
+
 @Entity()
 @Unique(["email", "userName", "nickName"])
 export class User {
@@ -13,9 +20,7 @@ export class User {
 
   @Column({type: "varchar"})
   userName: string
-
-  @Column({type: "varchar"})
-  nickName: string
+  
 
   @Column({type: "varchar"})
   firstName: string
@@ -44,6 +49,12 @@ export class User {
     default: Status.Active
   })
   status: Status;
+  
+  @Column({
+    type: "enum",
+    enum: Gender
+  })
+  gender: Gender;
   
   @CreateDateColumn()
   createdAt: Date
