@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Client/src/app/Screens/SignUpScreen/Components/types.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/app/Screens/SignUpScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/Forms/LoginFormWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/Wrappers/LoginFormWrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/Screens/LoginScreen/Components/Forms/FormCheckBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/Forms/SignUpForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/Screens/LoginScreen/Components/LoginForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/Forms/LoginForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/app/Screens/LoginScreen/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/Screens/LoginScreen/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/app/Forms/SignUpForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/app/Forms/SignUpForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/app.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/user/dto/create-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/user/dto/create-user.dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/src/user/entities/user.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/user/entities/user.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/user/user.controller.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/user/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/user/user.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/user/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/user/user.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/user/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,31 +62,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/Client/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/Client/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/Client/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/igorditro/Desktop/Frontend/FrontendTasks/React/wildSync/wild-sync/Client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
-      &quot;/Users/igorditro/Library/Application Support/Symbols/src&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ],
+    "rider.external.source.directories": [
+      "/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/Users/igorditro/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/Users/igorditro/Library/Application Support/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -127,6 +128,8 @@
       <workItem from="1741815266390" duration="11932000" />
       <workItem from="1742247769866" duration="2312000" />
       <workItem from="1742322186362" duration="493000" />
+      <workItem from="1742566136302" duration="5585000" />
+      <workItem from="1742732133094" duration="8056000" />
     </task>
     <task id="LOCAL-00001" summary="Login Form + project files">
       <option name="closed" value="true" />

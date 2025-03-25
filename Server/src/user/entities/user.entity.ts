@@ -1,66 +1,74 @@
-import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, Unique, UpdateDateColumn } from "typeorm";
+import {
+  Column,
+  CreateDateColumn,
+  Entity,
+  PrimaryGeneratedColumn,
+  Unique,
+  UpdateDateColumn,
+} from 'typeorm';
 
-enum Status {
+export enum Status {
   Active = 'Active',
   Inactive = 'Inactive',
-  Blocked = 'Blocked'
+  Blocked = 'Blocked',
 }
 
-enum Gender {
+export enum Gender {
   Male = 'Male',
   Female = 'Female',
-  RatherNotSay = 'Rather not say'
+  RatherNotSay = 'Rather not say',
 }
 
 @Entity()
-@Unique(["email", "userName", "nickName"])
+@Unique(['email', 'userName'])
 export class User {
   @PrimaryGeneratedColumn()
-  id: number
+  id: number;
 
-  @Column({type: "varchar"})
-  userName: string
-  
+  @Column({ nullable: true, type: 'varchar' })
+  userName: string;
 
-  @Column({type: "varchar"})
-  firstName: string
+  @Column({ nullable: true, type: 'varchar' })
+  firstName: string;
 
-  @Column({type: "varchar"})
-  lastName: string
-  
-  @Column({type: "varchar"})
-  phoneNumber: string // not sure here
-  
+  @Column({ nullable: true, type: 'varchar' })
+  lastName: string;
+
+  @Column({ nullable: true, type: 'varchar' })
+  phoneNumber: string; // not sure here
+
+  @Column({ nullable: true })
+  birthDay: Date; // age > 18
+
+  @Column({ nullable: true, type: 'varchar' })
+  country: string;
+
   @Column()
-  birthday: Date // age > 18
-  
-  @Column({type: "varchar"})
-  country: string
-  
+  email: string;
+
   @Column()
-  email: string
-  
-  @Column()
-  password: string // should be hashed
-  
+  password: string; // should be hashed
+
   @Column({
-    type: "enum",
+    type: 'enum',
     enum: Status,
-    default: Status.Active
+    default: Status.Active,
+    nullable: true,
   })
   status: Status;
-  
+
   @Column({
-    type: "enum",
-    enum: Gender
+    type: 'enum',
+    enum: Gender,
+    nullable: true,
   })
   gender: Gender;
-  
+
   @CreateDateColumn()
-  createdAt: Date
-  
+  createdAt: Date;
+
   @UpdateDateColumn()
-  updatedAt: Date
+  updatedAt: Date;
 
   // PreferableActivityTypeID
   //git test
