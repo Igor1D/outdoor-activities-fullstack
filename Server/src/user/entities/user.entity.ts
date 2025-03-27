@@ -16,7 +16,7 @@ export enum Status {
 export enum Gender {
   Male = 'Male',
   Female = 'Female',
-  RatherNotSay = 'Rather not say',
+  RatherNotSay = 'RatherNotSay',
 }
 
 @Entity()

@@ -14,6 +14,7 @@ import {
 import { DatePicker } from "@mui/x-date-pickers";
 import SignUpHeader from "../Wrappers/SignUpHeaderWrapper";
 import dayjs, { Dayjs } from "dayjs";
+import axios from "axios";
 
 const validationSchema: yup.Schema<SignUpFormValidation> = yup.object().shape({
   firstName: yup.string().required("First Name is required"),
@@ -27,23 +28,34 @@ const validationSchema: yup.Schema<SignUpFormValidation> = yup.object().shape({
     .required("Email is required"),
 });
 
+const initialValues = {
+  firstName: "",
+  lastName: "",
+  gender: "",
+  password: "",
+  birthDay: null as Dayjs | null,
+  email: "",
+};
+
 function SignUpForm() {
+  const [error, setError] = useState(null);
+
   return (
     <Formik
-      initialValues={{
-        firstName: "",
-        lastName: "",
-        gender: "",
-        password: "",
-        birthDay: null as Dayjs | null,
-        email: "",
-      }}
-      onSubmit={(values) => {
+      initialValues={initialValues}
+      onSubmit={async (values) => {
         const submissionData = {
           ...values,
           birthDay: values.birthDay?.format("DD-MM-YYYY") || "",
         };
-        console.log(submissionData);
+        const response = await axios
+          .post("http://localhost:3001/api/user", submissionData)
+          .catch((err) => {
+            if (err && err.response) setError(err.response.data.message);
+          });
+        if (response) {
+          alert("Welcome back in. Authenticating...");
+        }
       }}
       validationSchema={validationSchema}
     >
@@ -78,9 +90,9 @@ function SignUpForm() {
             value={formik.values.gender}
             onChange={formik.handleChange}
           >
-            <MenuItem value="male">Male</MenuItem>
-            <MenuItem value="female">Female</MenuItem>
-            <MenuItem value="ratherNotSay">Rather not say</MenuItem>
+            <MenuItem value="Male">Male</MenuItem>
+            <MenuItem value="Female">Female</MenuItem>
+            <MenuItem value="RatherNotSay">Rather not say</MenuItem>
           </TextField>
           <TextField
             name="email"
@@ -99,7 +111,7 @@ function SignUpForm() {
             label="Birthday"
             value={formik.values.birthDay}
             onChange={(newValue: Dayjs | null) => {
-              void formik.setFieldValue("birthDay", newValue); // Add 'void' here
+              void formik.setFieldValue("birthDay", newValue);
             }}
             slotProps={{
               textField: {

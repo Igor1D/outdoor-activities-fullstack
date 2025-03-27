@@ -136,7 +136,7 @@ export function LoginForm() {
         </Button>
         <Typography align={"center"} color={"textPrimary"}>
           Don't have an account?{" "}
-          <Link href="/" variant="body1">
+          <Link href="/signup" variant="body1">
             Sign up
           </Link>
         </Typography>
