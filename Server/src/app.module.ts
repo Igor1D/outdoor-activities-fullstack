@@ -6,6 +6,7 @@ import { AuthModule } from './auth/auth.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ActivitiesModule } from './activities/activities.module';
+import { ActivityAttendeeModule } from './activity-attendee/activity-attendee.module';
 
 @Module({
   imports: [UserModule, AuthModule, ConfigModule.forRoot({isGlobal: true}),
@@ -23,7 +24,8 @@ import { ActivitiesModule } from './activities/activities.module';
     }),
     inject: [ConfigService]
   }),
-  ActivitiesModule
+  ActivitiesModule,
+  ActivityAttendeeModule
   
   ],
   controllers: [AppController],

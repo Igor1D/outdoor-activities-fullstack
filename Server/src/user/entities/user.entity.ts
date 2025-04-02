@@ -2,10 +2,12 @@ import {
   Column,
   CreateDateColumn,
   Entity,
+  OneToMany,
   PrimaryGeneratedColumn,
   Unique,
   UpdateDateColumn,
 } from 'typeorm';
+import { ActivityAttendee } from '../../activity-attendee/entities/activity-attendee.entity';
 
 export enum Status {
   Active = 'Active',
@@ -70,6 +72,8 @@ export class User {
   @UpdateDateColumn()
   updatedAt: Date;
 
+  @OneToMany(() => ActivityAttendee, (attendee) => attendee.user)
+  activitiesAttended: ActivityAttendee[];
   // PreferableActivityTypeID
   //git test
 }
