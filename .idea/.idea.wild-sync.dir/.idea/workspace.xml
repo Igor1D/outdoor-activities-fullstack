@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="" />
+    <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,12 +21,12 @@
     &quot;assignee&quot;: &quot;Igor1D&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Igor1D/outdoor-activities-fullstack.git&quot;,
-    &quot;accountId&quot;: &quot;98c0ade6-dcd7-4dfa-9db6-f2389c3ce70f&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Igor1D/outdoor-activities-fullstack.git",
+    "accountId": "6586b0da-f21e-4fb7-b072-5cf8d42ef462"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Client/package-lock.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Client/package.json" root0="FORCE_HIGHLIGHTING" />
@@ -115,6 +117,7 @@
       <workItem from="1742566136302" duration="5585000" />
       <workItem from="1742732133094" duration="8056000" />
       <workItem from="1742742322695" duration="30435000" />
+      <workItem from="1743449051546" duration="16608000" />
     </task>
     <task id="LOCAL-00001" summary="Login Form + project files">
       <option name="closed" value="true" />
@@ -164,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743116628791</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Server- changes">
+      <option name="closed" value="true" />
+      <created>1743451009401</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743451009401</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Server - Activity Attendee Entity configuraiton">
+      <option name="closed" value="true" />
+      <created>1743627388320</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743627388320</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +215,9 @@
     <MESSAGE value="workspace.xml - Changes" />
     <MESSAGE value="Sign up form - backend work" />
     <MESSAGE value="Sign up func - done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sign up func - done" />
+    <MESSAGE value="Server- changes" />
+    <MESSAGE value="Server - Activity Attendee Entity configuraiton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server - Activity Attendee Entity configuraiton" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
