@@ -7,6 +7,8 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ActivitiesModule } from './activities/activities.module';
 import { ActivityAttendeeModule } from './activity-attendee/activity-attendee.module';
+import { ActivityTypeModule } from './activity-type/activity-type.module';
+import { ActivityDifficultyLevelModule } from './activity-difficulty-level/activity-difficulty-level.module';
 
 @Module({
   imports: [UserModule, AuthModule, ConfigModule.forRoot({isGlobal: true}),
@@ -25,7 +27,9 @@ import { ActivityAttendeeModule } from './activity-attendee/activity-attendee.mo
     inject: [ConfigService]
   }),
   ActivitiesModule,
-  ActivityAttendeeModule
+  ActivityAttendeeModule,
+  ActivityTypeModule,
+  ActivityDifficultyLevelModule
   
   ],
   controllers: [AppController],

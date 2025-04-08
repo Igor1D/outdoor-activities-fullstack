@@ -2,12 +2,15 @@ import {
   Column,
   CreateDateColumn,
   Entity,
+  ManyToOne,
   OneToMany,
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
 import { Unique } from 'typeorm';
 import { ActivityAttendee } from '../../activity-attendee/entities/activity-attendee.entity';
+import { ActivityType } from '../../activity-type/entities/activity-type.entity';
+import { ActivityDifficultyLevel } from '../../activity-difficulty-level/entities/activity-difficulty-level.entity';
 
 enum Status {
   Future = 'Future',
@@ -30,7 +33,11 @@ export class Activity {
   @Column({ type: 'varchar' })
   tags: string;
 
-  // ActivityTypeID
+  @ManyToOne(() => ActivityType)
+  activityType: ActivityType;
+
+  @ManyToOne(() => ActivityDifficultyLevel)
+  difficultLevel: ActivityDifficultyLevel;
   // ActivityLocationID
 
   @CreateDateColumn()
