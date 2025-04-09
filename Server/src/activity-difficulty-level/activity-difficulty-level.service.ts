@@ -1,6 +1,5 @@
 import { Injectable, OnApplicationBootstrap } from '@nestjs/common';
-import { CreateActivityDifficultyLevelDto } from './dto/create-activity-difficulty-level.dto';
-import { UpdateActivityDifficultyLevelDto } from './dto/update-activity-difficulty-level.dto';
+
 import { InjectRepository } from '@nestjs/typeorm';
 import { ActivityDifficultyLevel } from './entities/activity-difficulty-level.entity';
 import { Repository } from 'typeorm';
@@ -10,9 +9,18 @@ import * as console from 'node:console';
 @Injectable()
 export class ActivityDifficultyLevelService implements OnApplicationBootstrap {
   constructor(
-    @InjectRepository(ActivityDifficultyLevel)
+    @InjectRepository(ActivityDifficultyLevel) // get typeorm repo
     private readonly difficultyLevelRepo: Repository<ActivityDifficultyLevel>,
   ) {}
+
+  async findAll(): Promise<ActivityDifficultyLevel[]> {
+    return this.difficultyLevelRepo.find(); // get all records
+  }
+
+  async findOne(id: number): Promise<ActivityDifficultyLevel | null> {
+    return this.difficultyLevelRepo.findOneBy({ id }); // find by ID
+  }
+
   async onApplicationBootstrap() {
     await this.seedDifficultyLevels();
   }

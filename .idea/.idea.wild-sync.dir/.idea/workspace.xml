@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Server/src/activities/dto/activity-response.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/dto/difficulty-level-response.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activity-type/dto/activity-type-response.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/activities/activities.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activities/activities.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/activities/dto/create-activity.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activities/dto/create-activity.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-difficulty-level/dto/difficulty-level-response.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/dto/difficulty-level-response.dto.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +124,7 @@
       <workItem from="1743449051546" duration="16608000" />
       <workItem from="1744136048895" duration="586000" />
       <workItem from="1744136638287" duration="5461000" />
+      <workItem from="1744142111492" duration="5781000" />
     </task>
     <task id="LOCAL-00001" summary="Login Form + project files">
       <option name="closed" value="true" />
@@ -215,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744141119961</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Server - response DTOs">
+      <option name="closed" value="true" />
+      <created>1744142223089</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744142223089</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +259,8 @@
     <MESSAGE value="Server - updated the Nest versioon" />
     <MESSAGE value="Server - fixed the Nest can't resolve dependencies of the ActivityAttendeeService (ActivityAttendeeRepository, ?, ActivityRepository) error" />
     <MESSAGE value="Server - added activity-difficulty-level entity. activity-type entity + services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server - added activity-difficulty-level entity. activity-type entity + services" />
+    <MESSAGE value="Server - response DTOs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server - response DTOs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
