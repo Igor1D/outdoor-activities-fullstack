@@ -1,4 +1,8 @@
-import { Injectable, OnApplicationBootstrap } from '@nestjs/common';
+import {
+  Injectable,
+  NotFoundException,
+  OnApplicationBootstrap,
+} from '@nestjs/common';
 
 import { InjectRepository } from '@nestjs/typeorm';
 import { ActivityDifficultyLevel } from './entities/activity-difficulty-level.entity';
@@ -18,7 +22,10 @@ export class ActivityDifficultyLevelService implements OnApplicationBootstrap {
   }
 
   async findOne(id: number): Promise<ActivityDifficultyLevel | null> {
-    return this.difficultyLevelRepo.findOneBy({ id }); // find by ID
+    // return this.difficultyLevelRepo.findOneBy({ id }); // find by ID
+    const level = await this.difficultyLevelRepo.findOne({ where: { id } });
+    if (!level) throw new NotFoundException();
+    return level;
   }
 
   async onApplicationBootstrap() {

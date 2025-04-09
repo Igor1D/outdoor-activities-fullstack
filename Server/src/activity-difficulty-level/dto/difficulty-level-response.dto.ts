@@ -7,8 +7,4 @@ export class DifficultyLevelResponseDto {
 
   @Expose()
   name: string;
-
-  constructor(partial: Partial<ActivityDifficultyLevel>) {
-    Object.assign(this, partial);
-  }
 }
