@@ -14,6 +14,7 @@ import { PreferableActivityTypeService } from './preferable-activity-type.servic
 import { CreatePreferableActivityTypeDto } from './dto/create-preferable-activity-type.dto';
 import { UpdatePreferableActivityTypeDto } from './dto/update-preferable-activity-type.dto';
 import { PreferableActivityTypeResponseDto } from './dto/preferable-activity-type-response.dto';
+import { PreferableActivityType } from './entities/preferable-activity-type.entity';
 
 @Controller('preferable-activity-type')
 @UseInterceptors(ClassSerializerInterceptor)
@@ -33,9 +34,7 @@ export class PreferableActivityTypeController {
   }
 
   @Get('user/:userId')
-  findByUser(
-    @Param('userId', ParseIntPipe) userId: number,
-  ): Promise<PreferableActivityTypeResponseDto[]> {
+  findByUser(@Param('userId', ParseIntPipe) userId: number) {
     return this.service.findByUser(userId);
   }
 }

@@ -30,6 +30,11 @@ export class PreferableActivityTypeService {
       createDto.activityTypeId,
     );
 
+    const newPref = this.prefRepo.create({
+      user: user,
+      activityType: activityType,
+    });
+
     //   check for existing preference
     const existing = await this.prefRepo.findOne({
       where: {
@@ -41,9 +46,6 @@ export class PreferableActivityTypeService {
     if (existing) {
       throw new ConflictException('This preference already exists');
     }
-
-    const newPref = this.prefRepo.create({ user, activityType });
-
     return this.prefRepo.save(newPref);
   }
   async remove(id: number): Promise<void> {
@@ -56,7 +58,7 @@ export class PreferableActivityTypeService {
   async findByUser(userId: number): Promise<PreferableActivityType[]> {
     return this.prefRepo.find({
       where: { user: { id: userId } },
-      relations: ['activityType'],
+      relations: ['user', 'activityType'],
     });
   }
 }

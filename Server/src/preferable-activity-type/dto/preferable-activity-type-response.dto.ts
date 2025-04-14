@@ -1,4 +1,6 @@
 import { Expose, Type } from 'class-transformer';
+import { UserResponseDto } from '../../user/dto/user-response.dto';
+import { ActivityTypeResponseDto } from '../../activity-type/dto/activity-type-response.dto';
 
 export class PreferableActivityTypeResponseDto {
   @Expose()
@@ -9,5 +11,6 @@ export class PreferableActivityTypeResponseDto {
   user: UserResponseDto;
 
   @Expose()
-  activityTypeId: number;
+  @Type(() => ActivityTypeResponseDto)
+  activityType: ActivityTypeResponseDto;
 }
