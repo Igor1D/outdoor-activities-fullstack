@@ -8,6 +8,7 @@ import {
   UpdateDateColumn,
 } from 'typeorm';
 import { ActivityAttendee } from '../../activity-attendee/entities/activity-attendee.entity';
+import { PreferableActivityType } from '../../preferable-activity-type/entities/preferable-activity-type.entity';
 
 export enum Status {
   Active = 'Active',
@@ -74,6 +75,9 @@ export class User {
 
   @OneToMany(() => ActivityAttendee, (attendee) => attendee.user)
   activitiesAttended: ActivityAttendee[];
-  // PreferableActivityTypeID
+
+  @OneToMany(() => PreferableActivityType, (pref) => pref.user)
+  preferredActivities: PreferableActivityType[];
+
   //git test
 }

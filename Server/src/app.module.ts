@@ -9,6 +9,7 @@ import { ActivitiesModule } from './activities/activities.module';
 import { ActivityAttendeeModule } from './activity-attendee/activity-attendee.module';
 import { ActivityTypeModule } from './activity-type/activity-type.module';
 import { ActivityDifficultyLevelModule } from './activity-difficulty-level/activity-difficulty-level.module';
+import { PreferableActivityTypeModule } from './preferable-activity-type/preferable-activity-type.module';
 
 @Module({
   imports: [UserModule, AuthModule, ConfigModule.forRoot({isGlobal: true}),
@@ -29,7 +30,8 @@ import { ActivityDifficultyLevelModule } from './activity-difficulty-level/activ
   ActivitiesModule,
   ActivityAttendeeModule,
   ActivityTypeModule,
-  ActivityDifficultyLevelModule
+  ActivityDifficultyLevelModule,
+  PreferableActivityTypeModule
   
   ],
   controllers: [AppController],

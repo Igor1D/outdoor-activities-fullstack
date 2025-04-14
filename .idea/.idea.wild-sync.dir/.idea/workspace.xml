@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/activity-difficulty-level/dto/difficulty-level-response.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/dto/difficulty-level-response.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/dto/create-preferable-activity-type.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/dto/update-preferable-activity-type.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/entities/preferable-activity-type.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/preferable-activity-type.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/preferable-activity-type.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/preferable-activity-type.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-type/activity-type.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-type/activity-type.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-type/activity-type.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-type/activity-type.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-type/dto/create-activity-type.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-type/dto/create-activity-type.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-type/entities/activity-type.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-type/entities/activity-type.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +133,8 @@
       <workItem from="1744136048895" duration="586000" />
       <workItem from="1744136638287" duration="5461000" />
       <workItem from="1744142111492" duration="5781000" />
+      <workItem from="1744223712077" duration="8437000" />
+      <workItem from="1744659136339" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="Login Form + project files">
       <option name="closed" value="true" />
@@ -222,7 +232,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744142223089</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Server">
+      <option name="closed" value="true" />
+      <created>1744223806784</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1744223806784</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Serveer- resolved the TS errors">
+      <option name="closed" value="true" />
+      <created>1744224760739</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1744224760739</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +286,9 @@
     <MESSAGE value="Server - fixed the Nest can't resolve dependencies of the ActivityAttendeeService (ActivityAttendeeRepository, ?, ActivityRepository) error" />
     <MESSAGE value="Server - added activity-difficulty-level entity. activity-type entity + services" />
     <MESSAGE value="Server - response DTOs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server - response DTOs" />
+    <MESSAGE value="Server" />
+    <MESSAGE value="Serveer- resolved the TS errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serveer- resolved the TS errors" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
