@@ -9,6 +9,6 @@ import { ActivityDifficultLevelService } from './activity-difficulty-level.servi
   imports: [TypeOrmModule.forFeature([ActivityDifficultyLevel])],
   controllers: [ActivityDifficultyLevelController],
   providers: [ActivityDifficultLevelService],
-  exports: [TypeOrmModule.forFeature([ActivityDifficultyLevel]), TypeOrmModule],
+  exports: [ActivityDifficultLevelService],
 })
 export class ActivityDifficultyLevelModule {}

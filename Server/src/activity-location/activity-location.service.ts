@@ -16,16 +16,30 @@ export class ActivityLocationService {
   async create(
     createDto: CreateActivityLocationDto,
   ): Promise<ActivityLocation> {
-    // Get the full Activity entity
+    // Get the full Activity entity instance
     const activity = await this.activityService.findOne(createDto.activityId);
 
     // Create location with proper typing
-    const location = new ActivityLocation();
-    location.address = createDto.address;
-    location.coordinates = createDto.coordinates;
-    location.activity = activity; // This should be an Activity entity
+    const location = this.locationRepo.create({
+      address: createDto.address,
+      coordinates: createDto.coordinates,
+      activity: activity, // Must be an Activity entity instance
+    });
 
     return this.locationRepo.save(location);
+  }
+
+  async findOne(id: number): Promise<ActivityLocation> {
+    const location = await this.locationRepo.findOne({
+      where: { id },
+      relations: ['activity'],
+    });
+
+    if (!location) {
+      throw new NotFoundException(`Location with ID ${id} not found`);
+    }
+
+    return location;
   }
 
   async update(
@@ -40,13 +54,15 @@ export class ActivityLocationService {
     if (!location) throw new NotFoundException();
 
     if (updateDto.activityId) {
-      // Get new Activity entity
       location.activity = await this.activityService.findOne(
         updateDto.activityId,
       );
     }
 
-    return this.locationRepo.save({ ...location, ...updateDto });
+    return this.locationRepo.save({
+      ...location,
+      ...updateDto,
+    });
   }
 
   async findByActivity(activityId: number): Promise<ActivityLocation> {

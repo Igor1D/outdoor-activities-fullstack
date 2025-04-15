@@ -24,4 +24,7 @@ export class CreateActivityDto {
   address: number;
 
   coordinates: string;
+
+  @IsInt()
+  locationId: number;
 }

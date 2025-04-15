@@ -1,4 +1,4 @@
-import { Module } from '@nestjs/common';
+import { forwardRef, Module } from '@nestjs/common';
 import { ActivityLocationService } from './activity-location.service';
 import { ActivityLocationController } from './activity-location.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
@@ -7,9 +7,12 @@ import { Activity } from '../activities/entities/activity.entity';
 import { ActivitiesModule } from '../activities/activities.module';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([ActivityLocation]), ActivitiesModule],
+  imports: [
+    TypeOrmModule.forFeature([ActivityLocation]),
+    forwardRef(() => ActivitiesModule), // Fix circular dependency
+  ],
   controllers: [ActivityLocationController],
   providers: [ActivityLocationService],
-  exports: [TypeOrmModule],
+  exports: [ActivityLocationService],
 })
 export class ActivityLocationModule {}

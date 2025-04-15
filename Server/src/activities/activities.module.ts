@@ -1,19 +1,19 @@
-import { Module } from '@nestjs/common';
+import { forwardRef, Module } from '@nestjs/common';
 import { ActivitiesService } from './activities.service';
 import { ActivitiesController } from './activities.controller';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Activity } from './entities/activity.entity';
 import { UserModule } from '../user/user.module';
 import { ActivityTypeModule } from '../activity-type/activity-type.module';
-import { ActivityDifficultyLevel } from '../activity-difficulty-level/entities/activity-difficulty-level.entity';
 import { ActivityLocationModule } from '../activity-location/activity-location.module';
+import { ActivityDifficultyLevelModule } from '../activity-difficulty-level/activity-difficulty-level.module';
 
 @Module({
   imports: [
     TypeOrmModule.forFeature([Activity]),
     UserModule,
     ActivityTypeModule,
-    ActivityDifficultyLevel,
+    ActivityDifficultyLevelModule,
     ActivityLocationModule,
   ],
   exports: [TypeOrmModule.forFeature([Activity])],

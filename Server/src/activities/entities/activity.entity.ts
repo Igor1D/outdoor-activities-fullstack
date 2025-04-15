@@ -50,8 +50,8 @@ export class Activity {
   @Column()
   eventDate: Date;
 
-  @Column({ type: 'time' })
-  startTime: string;
+  @Column({ type: 'timestamp' })
+  startTime: Date;
 
   @Column({ type: 'time' })
   endTime: string;
