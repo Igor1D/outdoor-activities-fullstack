@@ -6,14 +6,11 @@ import { Expose } from 'class-transformer';
 @Entity()
 export class PreferableActivityType {
   @PrimaryGeneratedColumn()
-  @Expose()
   id: number;
 
   @ManyToOne(() => User, (user) => user.preferredActivities)
-  @Expose()
   user: User;
 
   @ManyToOne(() => ActivityType, (type) => type.preferredByUsers)
-  @Expose()
   activityType: ActivityType;
 }

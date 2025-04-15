@@ -1,6 +1,7 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 import { DifficultyLevelEnum } from '../../enums/activity.enum';
 import { Expose } from 'class-transformer';
+import { Activity } from '../../activities/entities/activity.entity';
 
 @Entity()
 export class ActivityDifficultyLevel {
@@ -11,4 +12,7 @@ export class ActivityDifficultyLevel {
   @Column({ type: 'enum', enum: DifficultyLevelEnum, unique: true })
   @Expose()
   name: DifficultyLevelEnum;
+
+  @OneToMany(() => Activity, (activity) => activity.difficultLevel)
+  activities: Activity[];
 }

@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/dto/create-preferable-activity-type.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/dto/update-preferable-activity-type.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/entities/preferable-activity-type.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/preferable-activity-type.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/preferable-activity-type.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/preferable-activity-type.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.wild-sync.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/activity-type/activity-type.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-type/activity-type.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/activity-type/activity-type.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-type/activity-type.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/activity-type/dto/create-activity-type.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-type/dto/create-activity-type.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/activity-type/entities/activity-type.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-type/entities/activity-type.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activities/activities.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activities/activities.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activities/entities/activity.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activities/entities/activity.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/activity-difficulty-level.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-difficulty-level/dto/create-activity-difficulty-level.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/dto/create-activity-difficulty-level.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-difficulty-level/entities/activity-difficulty-level.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-difficulty-level/entities/activity-difficulty-level.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-type/activity-type.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-type/activity-type.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/preferable-activity-type/entities/preferable-activity-type.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/entities/preferable-activity-type.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/preferable-activity-type/preferable-activity-type.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/preferable-activity-type/preferable-activity-type.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/user/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/user/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/user/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/user/user.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +137,8 @@
       <workItem from="1744142111492" duration="5781000" />
       <workItem from="1744223712077" duration="8437000" />
       <workItem from="1744659136339" duration="23000" />
+      <workItem from="1744659162330" duration="4831000" />
+      <workItem from="1744733491595" duration="2624000" />
     </task>
     <task id="LOCAL-00001" summary="Login Form + project files">
       <option name="closed" value="true" />
@@ -248,7 +252,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744224760739</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Server: pref activity type">
+      <option name="closed" value="true" />
+      <created>1744661826780</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744661826780</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Server: working on the pref activity type fixes">
+      <option name="closed" value="true" />
+      <created>1744664445676</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1744664445676</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +308,9 @@
     <MESSAGE value="Server - response DTOs" />
     <MESSAGE value="Server" />
     <MESSAGE value="Serveer- resolved the TS errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Serveer- resolved the TS errors" />
+    <MESSAGE value="Server: pref activity type" />
+    <MESSAGE value="Server: working on the pref activity type fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server: working on the pref activity type fixes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

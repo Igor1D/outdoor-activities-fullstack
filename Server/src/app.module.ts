@@ -12,27 +12,29 @@ import { ActivityDifficultyLevelModule } from './activity-difficulty-level/activ
 import { PreferableActivityTypeModule } from './preferable-activity-type/preferable-activity-type.module';
 
 @Module({
-  imports: [UserModule, AuthModule, ConfigModule.forRoot({isGlobal: true}),
-  TypeOrmModule.forRootAsync({
-    imports:[ConfigModule],
-    useFactory:(configService: ConfigService)=> ({
-      type: 'postgres',
-      host: configService.get('DB_HOST'),
-      port: configService.get('DB_PORT'),
-      username: configService.get('DB_USERNAME'),
-      password: configService.get('DB_PASSWORD'),
-      database: configService.get('DB_NAME'),
-      entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      synchronize: true,
+  imports: [
+    UserModule,
+    AuthModule,
+    ConfigModule.forRoot({ isGlobal: true }),
+    TypeOrmModule.forRootAsync({
+      imports: [ConfigModule],
+      useFactory: (configService: ConfigService) => ({
+        type: 'postgres',
+        host: configService.get('DB_HOST'),
+        port: configService.get('DB_PORT'),
+        username: configService.get('DB_USERNAME'),
+        password: configService.get('DB_PASSWORD'),
+        database: configService.get('DB_NAME'),
+        entities: [__dirname + '/**/*.entity{.ts,.js}'],
+        synchronize: true,
+      }),
+      inject: [ConfigService],
     }),
-    inject: [ConfigService]
-  }),
-  ActivitiesModule,
-  ActivityAttendeeModule,
-  ActivityTypeModule,
-  ActivityDifficultyLevelModule,
-  PreferableActivityTypeModule
-  
+    ActivitiesModule,
+    ActivityAttendeeModule,
+    ActivityTypeModule,
+    ActivityDifficultyLevelModule,
+    PreferableActivityTypeModule,
   ],
   controllers: [AppController],
   providers: [AppService],

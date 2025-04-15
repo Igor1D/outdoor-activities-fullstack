@@ -30,10 +30,10 @@ export class PreferableActivityTypeService {
       createDto.activityTypeId,
     );
 
-    const newPref = this.prefRepo.create({
-      user: user,
-      activityType: activityType,
-    });
+    // const existing = this.prefRepo.create({
+    //   user: user,
+    //   activityType: activityType,
+    // });
 
     //   check for existing preference
     const existing = await this.prefRepo.findOne({
@@ -44,8 +44,20 @@ export class PreferableActivityTypeService {
     });
 
     if (existing) {
-      throw new ConflictException('This preference already exists');
+      throw new ConflictException(
+        'This preference already exists for this user and activity type',
+      );
     }
+
+    // const newPref = new PreferableActivityType();
+    // newPref.user = user;
+    // newPref.activityType = activityType;
+
+    const newPref = this.prefRepo.create({
+      user,
+      activityType,
+    });
+
     return this.prefRepo.save(newPref);
   }
   async remove(id: number): Promise<void> {

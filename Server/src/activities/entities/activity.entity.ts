@@ -69,4 +69,7 @@ export class Activity {
 
   @OneToMany(() => ActivityAttendee, (attendee) => attendee.activity)
   attendees: ActivityAttendee[];
+
+  @ManyToOne(() => ActivityDifficultyLevel, (level) => level.activities)
+  difficultyLevel: ActivityDifficultyLevel;
 }
