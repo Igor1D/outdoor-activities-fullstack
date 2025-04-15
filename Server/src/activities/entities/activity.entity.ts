@@ -11,6 +11,7 @@ import { Unique } from 'typeorm';
 import { ActivityAttendee } from '../../activity-attendee/entities/activity-attendee.entity';
 import { ActivityType } from '../../activity-type/entities/activity-type.entity';
 import { ActivityDifficultyLevel } from '../../activity-difficulty-level/entities/activity-difficulty-level.entity';
+import { ActivityLocation } from '../../activity-location/entities/activity-location.entity';
 
 enum Status {
   Future = 'Future',
@@ -72,4 +73,7 @@ export class Activity {
 
   @ManyToOne(() => ActivityDifficultyLevel, (level) => level.activities)
   difficultyLevel: ActivityDifficultyLevel;
+
+  @OneToMany(() => ActivityLocation, (location) => location.activity)
+  location: ActivityLocation;
 }

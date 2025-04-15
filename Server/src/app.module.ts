@@ -10,6 +10,7 @@ import { ActivityAttendeeModule } from './activity-attendee/activity-attendee.mo
 import { ActivityTypeModule } from './activity-type/activity-type.module';
 import { ActivityDifficultyLevelModule } from './activity-difficulty-level/activity-difficulty-level.module';
 import { PreferableActivityTypeModule } from './preferable-activity-type/preferable-activity-type.module';
+import { ActivityLocationModule } from './activity-location/activity-location.module';
 
 @Module({
   imports: [
@@ -35,6 +36,7 @@ import { PreferableActivityTypeModule } from './preferable-activity-type/prefera
     ActivityTypeModule,
     ActivityDifficultyLevelModule,
     PreferableActivityTypeModule,
+    ActivityLocationModule,
   ],
   controllers: [AppController],
   providers: [AppService],

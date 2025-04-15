@@ -6,6 +6,7 @@ import { Activity } from './entities/activity.entity';
 import { UserModule } from '../user/user.module';
 import { ActivityTypeModule } from '../activity-type/activity-type.module';
 import { ActivityDifficultyLevel } from '../activity-difficulty-level/entities/activity-difficulty-level.entity';
+import { ActivityLocationModule } from '../activity-location/activity-location.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { ActivityDifficultyLevel } from '../activity-difficulty-level/entities/a
     UserModule,
     ActivityTypeModule,
     ActivityDifficultyLevel,
+    ActivityLocationModule,
   ],
   exports: [TypeOrmModule.forFeature([Activity])],
   controllers: [ActivitiesController],
