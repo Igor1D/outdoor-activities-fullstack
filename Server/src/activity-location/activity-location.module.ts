@@ -9,7 +9,8 @@ import { ActivitiesModule } from '../activities/activities.module';
 @Module({
   imports: [
     TypeOrmModule.forFeature([ActivityLocation]),
-    forwardRef(() => ActivitiesModule), // Fix circular dependency
+    ActivitiesModule,
+    forwardRef(() => ActivitiesModule),
   ],
   controllers: [ActivityLocationController],
   providers: [ActivityLocationService],

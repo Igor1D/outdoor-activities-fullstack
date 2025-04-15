@@ -11,6 +11,7 @@ import { ActivityDifficultyLevelModule } from '../activity-difficulty-level/acti
 @Module({
   imports: [
     TypeOrmModule.forFeature([Activity]),
+    forwardRef(() => ActivityLocationModule),
     UserModule,
     ActivityTypeModule,
     ActivityDifficultyLevelModule,
