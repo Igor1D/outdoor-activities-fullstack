@@ -7,7 +7,7 @@ import { Activity } from '../activities/entities/activity.entity';
 import { ActivitiesModule } from '../activities/activities.module';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([ActivityLocation])],
+  imports: [TypeOrmModule.forFeature([ActivityLocation]), ActivitiesModule],
   controllers: [ActivityLocationController],
   providers: [ActivityLocationService],
   exports: [ActivityLocationService],
