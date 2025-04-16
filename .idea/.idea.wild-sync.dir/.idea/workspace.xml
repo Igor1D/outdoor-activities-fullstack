@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Server/src/activity-location/activity-location.controller.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activity-location/activity-location.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activity-location/activity-location.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activity-location/dto/activity-location-response.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activity-location/dto/create-activity-location.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activity-location/dto/update-activity-location.dto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/activity-location/entities/activity-location.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/src/activities/activities.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activities/activities.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/activities/entities/activity.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activities/entities/activity.entity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-location/activity-location.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-location/activity-location.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +128,7 @@
       <workItem from="1744659162330" duration="4831000" />
       <workItem from="1744733491595" duration="2624000" />
       <workItem from="1744736122504" duration="2198000" />
+      <workItem from="1744738326910" duration="3384000" />
     </task>
     <task id="LOCAL-00001" summary="Login Form + project files">
       <option name="closed" value="true" />
@@ -273,7 +266,31 @@
       <option name="project" value="LOCAL" />
       <updated>1744736222445</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Server: activity location entity">
+      <option name="closed" value="true" />
+      <created>1744738907297</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1744738907297</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Server: Activities">
+      <option name="closed" value="true" />
+      <created>1744741039645</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1744741039645</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Server: activiteis">
+      <option name="closed" value="true" />
+      <created>1744741477704</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1744741477704</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +333,10 @@
     <MESSAGE value="Server: pref activity type" />
     <MESSAGE value="Server: working on the pref activity type fixes" />
     <MESSAGE value="Server: Dificulty level" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server: Dificulty level" />
+    <MESSAGE value="Server: activity location entity" />
+    <MESSAGE value="Server: Activities" />
+    <MESSAGE value="Server: activiteis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server: activiteis" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

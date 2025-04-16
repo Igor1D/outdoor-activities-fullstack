@@ -16,17 +16,7 @@ export class ActivityLocationService {
   async create(
     createDto: CreateActivityLocationDto,
   ): Promise<ActivityLocation> {
-    // Get the full Activity entity instance
-    const activity = await this.activityService.findOne(createDto.activityId);
-
-    // Create location with proper typing
-    const location = this.locationRepo.create({
-      address: createDto.address,
-      coordinates: createDto.coordinates,
-      activity: activity, // Must be an Activity entity instance
-    });
-
-    return this.locationRepo.save(location);
+    return this.locationRepo.save(this.locationRepo.create(createDto));
   }
 
   async findOne(id: number): Promise<ActivityLocation> {
