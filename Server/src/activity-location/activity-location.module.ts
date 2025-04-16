@@ -9,13 +9,12 @@ import { UserModule } from '../user/user.module';
 
 @Module({
   imports: [
-    forwardRef(() => ActivitiesModule),
-    TypeOrmModule.forFeature([ActivityLocation]),
+    TypeOrmModule.forFeature([ActivityLocation, Activity]),
     UserModule,
-    ActivitiesModule,
+    // ActivitiesModule,
   ],
   controllers: [ActivityLocationController],
   providers: [ActivityLocationService],
-  exports: [ActivityLocationService],
+  exports: [ActivityLocationService, TypeOrmModule],
 })
 export class ActivityLocationModule {}

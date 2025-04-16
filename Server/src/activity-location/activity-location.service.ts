@@ -5,13 +5,15 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { ActivityLocation } from './entities/activity-location.entity';
 import { Repository } from 'typeorm';
 import { ActivitiesService } from '../activities/activities.service';
+import { Activity } from '../activities/entities/activity.entity';
 
 @Injectable()
 export class ActivityLocationService {
   constructor(
     @InjectRepository(ActivityLocation)
     private readonly locationRepo: Repository<ActivityLocation>,
-    private readonly activityService: ActivitiesService,
+    @InjectRepository(Activity)
+    private readonly activityRepo: Repository<Activity>,
   ) {}
   async create(
     createDto: CreateActivityLocationDto,

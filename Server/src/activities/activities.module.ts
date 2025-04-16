@@ -11,9 +11,8 @@ import { ActivityRelationsService } from './services/activity-relations.service'
 
 @Module({
   imports: [
-    forwardRef(() => ActivityLocationModule),
-    TypeOrmModule.forFeature([Activity]),
     ActivityLocationModule,
+    TypeOrmModule.forFeature([Activity]),
     UserModule,
     ActivityTypeModule,
     ActivityDifficultyLevelModule,
