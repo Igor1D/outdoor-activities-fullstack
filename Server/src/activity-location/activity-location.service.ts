@@ -13,7 +13,7 @@ export class ActivityLocationService {
     @InjectRepository(ActivityLocation)
     private readonly locationRepo: Repository<ActivityLocation>,
     @InjectRepository(Activity)
-    private readonly activityRepo: Repository<Activity>,
+    private readonly activityService: Repository<Activity>,
   ) {}
   async create(
     createDto: CreateActivityLocationDto,
@@ -46,9 +46,9 @@ export class ActivityLocationService {
     if (!location) throw new NotFoundException();
 
     if (updateDto.activityId) {
-      location.activity = await this.activityService.findOne(
-        updateDto.activityId,
-      );
+      location.activity = await this.activityService.findOne({
+        where: { id: updateDto.activityId },
+      });
     }
 
     return this.locationRepo.save({
