@@ -23,6 +23,6 @@ import { ActivityRelationsService } from './services/activity-relations.service'
     ActivityRelationsService,
   ],
   controllers: [ActivitiesController],
-  providers: [ActivitiesService],
+  providers: [ActivitiesService, ActivityRelationsService],
 })
 export class ActivitiesModule {}

@@ -19,6 +19,6 @@ export class ActivityLocation {
   @Column()
   address: string;
 
-  @Column({ type: 'geometry', spatialFeatureType: 'Point', srid: 4326 })
+  @Column({ nullable: true })
   coordinates: string;
 }
