@@ -18,11 +18,12 @@ export class ActivityRelationsService {
     activityId: number,
     locationId: number,
   ): Promise<Activity> {
-    const activity = await this.activityRepo.findOne({
-      where: { id: activityId },
+    await this.activityRepo.update(activityId, {
+      location: { id: locationId } as ActivityLocation,
     });
-
-    activity.location = { id: locationId } as ActivityLocation;
-    return this.activityRepo.save(activity);
+    return this.activityRepo.findOne({
+      where: { id: activityId },
+      relations: ['location'],
+    });
   }
 }

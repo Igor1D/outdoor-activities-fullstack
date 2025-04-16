@@ -7,16 +7,22 @@ import { UserModule } from '../user/user.module';
 import { ActivityTypeModule } from '../activity-type/activity-type.module';
 import { ActivityLocationModule } from '../activity-location/activity-location.module';
 import { ActivityDifficultyLevelModule } from '../activity-difficulty-level/activity-difficulty-level.module';
+import { ActivityRelationsService } from './services/activity-relations.service';
 
 @Module({
   imports: [
+    forwardRef(() => ActivityLocationModule),
     TypeOrmModule.forFeature([Activity]),
     ActivityLocationModule,
     UserModule,
     ActivityTypeModule,
     ActivityDifficultyLevelModule,
   ],
-  exports: [TypeOrmModule.forFeature([Activity])],
+  exports: [
+    TypeOrmModule.forFeature([Activity]),
+    ActivitiesService,
+    ActivityRelationsService,
+  ],
   controllers: [ActivitiesController],
   providers: [ActivitiesService],
 })

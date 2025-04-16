@@ -5,9 +5,15 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { ActivityLocation } from './entities/activity-location.entity';
 import { Activity } from '../activities/entities/activity.entity';
 import { ActivitiesModule } from '../activities/activities.module';
+import { UserModule } from '../user/user.module';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([ActivityLocation]), ActivitiesModule],
+  imports: [
+    forwardRef(() => ActivitiesModule),
+    TypeOrmModule.forFeature([ActivityLocation]),
+    UserModule,
+    ActivitiesModule,
+  ],
   controllers: [ActivityLocationController],
   providers: [ActivityLocationService],
   exports: [ActivityLocationService],
