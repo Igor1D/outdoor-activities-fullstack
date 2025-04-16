@@ -2,8 +2,10 @@ import {
   Column,
   CreateDateColumn,
   Entity,
+  JoinColumn,
   ManyToOne,
   OneToMany,
+  OneToOne,
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
@@ -74,6 +76,7 @@ export class Activity {
   @ManyToOne(() => ActivityDifficultyLevel, (level) => level.activities)
   difficultyLevel: ActivityDifficultyLevel;
 
-  @OneToMany(() => ActivityLocation, (location) => location.activity)
+  @OneToOne(() => ActivityLocation, (location) => location.activity)
+  @JoinColumn()
   location: ActivityLocation;
 }

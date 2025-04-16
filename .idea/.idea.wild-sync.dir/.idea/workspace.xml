@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c0718b3-de59-416f-8cc8-bc2e4a51008f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Server/src/activities/activities.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activities/activities.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/activity-location/activity-location.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-location/activity-location.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activities/entities/activity.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activities/entities/activity.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activities/services/activity-relations.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activities/services/activity-relations.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/activity-location/entities/activity-location.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/activity-location/entities/activity-location.entity.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +130,7 @@
       <workItem from="1744733491595" duration="2624000" />
       <workItem from="1744736122504" duration="2198000" />
       <workItem from="1744738326910" duration="3384000" />
+      <workItem from="1744741719850" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary="Login Form + project files">
       <option name="closed" value="true" />
@@ -290,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744741477704</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Server: activity location">
+      <option name="closed" value="true" />
+      <created>1744833585740</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1744833585740</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +346,8 @@
     <MESSAGE value="Server: activity location entity" />
     <MESSAGE value="Server: Activities" />
     <MESSAGE value="Server: activiteis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server: activiteis" />
+    <MESSAGE value="Server: activity location" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server: activity location" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -3,6 +3,7 @@ import {
   Entity,
   JoinColumn,
   OneToMany,
+  OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { Activity } from '../../activities/entities/activity.entity';
@@ -12,8 +13,7 @@ export class ActivityLocation {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @OneToMany(() => Activity, (activity) => activity.location)
-  @JoinColumn({ name: 'activityId' })
+  @OneToOne(() => Activity, (activity) => activity.location)
   activity: Activity;
 
   @Column()

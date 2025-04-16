@@ -21,10 +21,8 @@ export class ActivityRelationsService {
     const activity = await this.activityRepo.findOne({
       where: { id: activityId },
     });
-    const location = await this.locationRepo.findOne({
-      where: { id: locationId },
-    });
-    activity.location = location;
+
+    activity.location = { id: locationId } as ActivityLocation;
     return this.activityRepo.save(activity);
   }
 }
